@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1281dfd5-1377-47a9-a9f9-d470069abbd4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/GameModel/PacManFieldGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/GameModel/PacManFieldGenerator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/GameSession.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/GameSession.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/GameModel/Tools.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/GameModel/Tools.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/GhostView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/GhostView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/PackmanView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/PackmanView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Packman_IS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Packman_IS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/GameModel/Ghost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GameModel/Ghost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/GameModel/PacManFieldGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GameModel/PacManFieldGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/GameModel/Packman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GameModel/Packman.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/GameModel/PackmanGameModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GameModel/PackmanGameModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/GameSession.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GameSession.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Obstacle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Obstacle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +28,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37b51751e7a84134841e2b994d9061ab172a00/97/52859b2e/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fcc0bbf6bf4e430c91d4aa05736fc5c62ac00/ef/255bcde9/Ease.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/GameModel/Ghost.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2XTvxeBN0eS7GoWL7vFbUOYi8ef" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,26 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/sergiyklochak/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/Users/sergiyklochak/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/Users/sergiyklochak/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/sergiyklochak/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/sergiyklochak/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/sergiyklochak/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/MacOS/Unity" />
@@ -82,10 +89,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="44946">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="53507">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="44946" />
+      <option name="pid" value="53507" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -101,7 +108,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698666132385</updated>
-      <workItem from="1698666133448" duration="2738000" />
+      <workItem from="1698666133448" duration="3786000" />
+      <workItem from="1698670067198" duration="7476000" />
+      <workItem from="1698677935116" duration="4882000" />
     </task>
     <servers />
   </component>
@@ -114,22 +123,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Game/GameSession.cs</url>
-          <line>9</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Game/GameSession.cs" initialLine="8" containingFunctionPresentation="Method 'Awake'">
-            <startOffsets>
-              <option value="202" />
-            </startOffsets>
-            <endOffsets>
-              <option value="203" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#Ghost" memberName="position" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
